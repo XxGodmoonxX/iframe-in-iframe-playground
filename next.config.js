@@ -5,7 +5,7 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  assetPrefix: process.env.NODE_ENV === "production" ? "/project_name" : ""
+  assetPrefix: process.env.NODE_ENV === "production" ? "/iframe-in-iframe-playground" : ""
 }
 
 module.exports = nextConfig
