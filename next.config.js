@@ -5,6 +5,7 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  assetPrefix: process.env.NODE_ENV === "production" ? "/project_name" : ""
 }
 
 module.exports = nextConfig
