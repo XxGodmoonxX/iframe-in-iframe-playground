@@ -11,7 +11,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [urlValue, setUrlValue] = useState<string>(
-    "https://za.theater/events/lostandfound"
+    "https://github.com/XxGodmoonxX"
   );
 
   return (
